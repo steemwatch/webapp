@@ -7,7 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { MaterialModule } from './material.module';
 
-import { NavbarComponent as HTML5NavbarComponent } from './polyfills/navbar.component';
+import { NavbarComponent as HTML5NavbarComponent } from './elements/navbar.component';
 
 import { AppComponent } from './app.component';
 import { ContentComponent } from './content.component';
