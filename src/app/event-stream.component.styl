@@ -1,17 +1,9 @@
 @import "mixins/containers"
 
-md-sidenav-container
-  sw-container-stretch()
-
-div.container
+:host
   sw-container-row()
-  sw-container-stretch()
-  width: 100%
+  height: 100%
 
-div.left
-  sw-container-row()
-  sw-container-stretch()
-  align-items: center
-
-div.right
-  width: 100%
+div.matcher-list
+  sw-container-column()
+  min-width: 200px
