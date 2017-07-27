@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 
 import {
   MdButtonModule,
+  MdCheckboxModule,
   MdIconModule,
 } from '@angular/material';
 
@@ -9,10 +10,12 @@ import {
 @NgModule({
   imports: [
     MdButtonModule,
+    MdCheckboxModule,
     MdIconModule,
   ],
   exports: [
     MdButtonModule,
+    MdCheckboxModule,
     MdIconModule,
   ]
 })

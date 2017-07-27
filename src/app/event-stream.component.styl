@@ -1,3 +1,4 @@
+@import "mixins/colors"
 @import "mixins/containers"
 
 :host
@@ -7,3 +8,14 @@
 div.matcher-list
   sw-container-column()
   min-width: 200px
+
+div.matcher-list .heading
+  divider-color()
+  padding: 1rem
+  text-align: center
+  text-transform: uppercase
+  font-weight: 500
+
+div.matcher-list .list
+  sw-container-column()
+  padding: 0 1rem
